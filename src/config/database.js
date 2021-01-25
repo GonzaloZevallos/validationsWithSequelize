@@ -1,13 +1,22 @@
 module.exports = {
   "development": {
-    "username": process.env.DB_USERNAME,
-    "password": process.env.DB_PASSWORD,
-    "database": process.env.DB_DATABASE,
-    "host": process.env.DB_HOST,
-    "dialect": process.env.DB_CONNECTION,
-    "define": {
-      "underscored": true
-    }
+    "username": "digital_house",
+    "password": "digital_house",
+    "database": "digital_house",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    pool: {
+        max: 5,
+        min: 0,
+        idle: 10000
+    },
+    dialectOptions: {
+      socketPath: "/Applications/MAMP/tmp/mysql/mysql.sock"
+    },
+    define: {
+        paranoid: true,
+        "underscored": true
+    },
   },
   "test": {
     "username": "root",
