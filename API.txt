@@ -1,2 +1,16 @@
+¿DUDAS?
+
+🤖 CLASE APIS PROPIAS
+
+🎓 Objetivos:
+    - Livecoding
+    - Ejercitación: Formulario login con API
+
+---
+
+🧠 Repaso:
+
 ¿Qué es una api REST?
 ¿Verbos?
+¿Qué es un Endpoint?
+¿Qué es un Recurso?
