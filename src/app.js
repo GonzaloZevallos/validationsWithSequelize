@@ -7,6 +7,7 @@ const logger = require('morgan');
 require('dotenv').config();
 
 const userRouter = require('./routes/userRouter');
+const apiRouter = require('./routes/apiRouter');
 
 const app = express();
 
@@ -22,6 +23,7 @@ app.use(express.static(path.join(__dirname, '../public')));
 
 
 app.use('/', userRouter);
+app.use('/api', apiRouter);
 
 app.get('*', (req, res) => res.redirect('/register'));
 

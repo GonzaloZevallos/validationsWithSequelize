@@ -12,5 +12,22 @@
 
 ¿Qué es una api REST?
 ¿Verbos?
-¿Qué es un Endpoint?
+ - POST: crear
+ - GET: leer
+ - DELETE: borrar
+ - PUT: cambiar todo
+ - PATCH: editar algún atributo
+
+¿Qué es un Colección?
 ¿Qué es un Recurso?
+¿Qué es un Endpoint?
+
+GET    wwww.dh.com/api/usuarios > lista de todos los usuario
+GET wwww.dh.com/api/usuarios/:id > usuario determinado
+POST   wwww.dh.com/api/usuarios > crear nuevo usuario
+DELETE wwww.dh.com/api/usuarios/:id > borra el usuario id
+PUT wwww.dh.com/api/usuarios/:id > remplaza 
+PATCH wwww.dh.com/api/usuarios/:id > modificas
+
+GET wwww.dh.com/api/usuarios/:id/
+
